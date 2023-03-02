@@ -1,21 +1,24 @@
 # Project Structure
-ProblemReporter/
-├── Controllers/
-│   ├── ListProblemsViewController.swift
-│   ├── ProblemDetailViewController.swift
-│   └── EditProblemViewController.swift
-├── Models/
-│   └── Problem.swift
-├── Views/
-│   └── ProblemTableViewCell.swift
-├── Supporting Files/
-│   ├── Main.storyboard
-│   └── AppDelegate.swift
-└── Assets.xcassets/
-    └── Images.xcassets/
-        └── Placeholder.imageset/
-            └── placeholder_image.png
+```
+ProblemReport
+├─ Assets.xcassets
+│  └─ Images.xcassets
+│     └─ Placeholder.imageset
+│        └─ placeholder_image.png
+├─ Controllers
+│  ├─ EditProblemViewController.swift
+│  ├─ ListProblemsViewController.swift
+│  └─ ProblemDetailViewController.swift
+├─ Models
+│  └─ Problem.swift
+├─ README.md
+├─ Supporting Files
+│  ├─ AppDelegate.swift
+│  └─ Main.storyboard
+└─ Views
+   └─ ProblemTableViewCell.swift
 
+```
 
 
 # Structre Description
